@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name"> Lime Green</h2>
+            <a href="#" class="buy"> Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/running_shoes_1.png" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name"> Red</h2>
+            <a href="#" class="buy"> Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/running_shoes_2.png" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name"> Blue</h2>
+            <a href="#" class="buy"> Buy Now</a>
+            <div class="circle"></div>
+            <img src="img/running_shoes_3.png" class="product">
+        </div>
+    </div>
+    </div>
+    <script src="Vanilla-tilt.txt"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+
+</body>
+
+</html>
